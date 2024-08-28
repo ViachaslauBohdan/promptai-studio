@@ -1,0 +1,179 @@
+{
+  "Header": {
+    "title": "We are top-notch web development service provider.",
+    "paragraph": " Unlock the potential of your ideas with our premier web development services.We specialize in creating visually stunning and highly functional appealing websites that elevate your brand and deliver an exceptional user experience."
+  },
+  "About": {
+    "paragraph": "We are a dedicated team of web development professionals with many Years of experience in delivering high-quality, responsive websites. Our expertise spans across different web development services, allowing us to create dynamic and engaging digital experiences. We are committed to helping businesses thrive online by developing custom solutions that meet their unique needs and objectives.",
+    "Why": [
+      "Expertise and Experience",
+      "Customized Solutions",
+      "Client-Centric Approach",
+      "Cutting-Edge Technology"
+    ],
+    "Why2": [
+      "Proven Track Record",
+      "Transparent Pricing",
+      "Agile Development Process",
+      "Comprehensive Services"
+    ]
+  },
+  "Gallery": [{
+      "title": "Project One",
+      "largeImage": "img/portfolio/01-large.jpg",
+      "smallImage": "img/portfolio/01-small.jpg"
+    },
+    {
+      "title": "Project Two",
+      "largeImage": "img/portfolio/02-large.jpg",
+      "smallImage": "img/portfolio/02-small.jpg"
+    },
+    {
+      "title": "Project Three",
+      "largeImage": "img/portfolio/03-large.jpg",
+      "smallImage": "img/portfolio/03-small.jpg"
+    },
+    {
+      "title": "Project Four",
+      "largeImage": "img/portfolio/04-large.jpg",
+      "smallImage": "img/portfolio/04-small.jpg"
+    },
+    {
+      "title": "Project Five",
+      "largeImage": "img/portfolio/05-large.jpg",
+      "smallImage": "img/portfolio/05-small.jpg"
+    },
+    {
+      "title": "Project Six",
+      "largeImage": "img/portfolio/06-large.jpg",
+      "smallImage": "img/portfolio/06-small.jpg"
+    },
+    {
+      "title": "Project Seven",
+      "largeImage": "img/portfolio/07-large.jpg",
+      "smallImage": "img/portfolio/07-small.jpg"
+    },
+    {
+      "title": "Project Eight",
+      "largeImage": "img/portfolio/08-large.jpg",
+      "smallImage": "img/portfolio/08-small.jpg"
+    },
+    {
+      "title": "Project Nine",
+      "largeImage": "img/portfolio/09-large.jpg",
+      "smallImage": "img/portfolio/09-small.jpg"
+    }
+  ],
+  "Services": [{
+      "icon": "fa fa-wordpress",
+      "name": "Web development",
+      "text": "Our company offers full-spectrum web development services, providing custom, scalable, and secure web solutions tailored to meet your business needs."
+    },
+    {
+      "icon": "fa fa-cart-arrow-down",
+      "name": "Website SEO Optimization",
+      "text": "Our company provides comprehensive SEO (Search Engine Optimization) services designed to enhance your website's visibility, drive organic traffic, and boost your search engine rankings."
+    },
+    {
+      "icon": "fa fa-cloud-download",
+      "name": "React Vue Angular",
+      "text": "Our comprehensive JavaScript framework and library development services encompass React, Vue.js, and Angular, offering tailored solutions to meet your business's unique needs. "
+    },
+    {
+      "icon": "fa fa-language",
+      "name": "Landing page development for your business",
+      "text": "Our company specializes in creating high-converting landing pages that are tailored to meet your specific business goals. Whether you’re looking to generate leads, promote a product, or drive sign-ups."
+    },
+    {
+      "icon": "fa fa-plane",
+      "name": "Website Hosting",
+      "text": "Our company provides reliable and secure website hosting services designed to ensure your online presence is always accessible, fast, and secure. Whether you’re running a small business website, an e-commerce platform."
+    },
+    {
+      "icon": "fa fa-pie-chart",
+      "name": "Website Security",
+      "text": "As a leading provider of comprehensive website security solutions, our company ensures that your online presence is fully protected against cyber threats. Our services are designed to safeguard your website, data, and customers through a multi-layered approach."
+    }
+  ],
+  "Testimonials": [{
+      "img": "img/testimonials/01.jpg",
+      "text": "\"The team exceeded our expectations in every way. The website they built for us not only looks amazing but also functions flawlessly. We couldn't be happier with the results.\"",
+      "name": "John Chally"
+    },
+    {
+      "img": "img/testimonials/02.jpg",
+      "text": "\"Their attention to detail and dedication to delivering a high-quality product were evident throughout the entire project. We received fantastic feedback from our clients after launching the new site.\"",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/testimonials/03.jpg",
+      "text": "\"Working with this team was an absolute pleasure. Their technical expertise and understanding of our business goals made the entire process smooth and stress-free.\"",
+      "name": "Victor Donald"
+    },
+    {
+      "img": "img/testimonials/04.jpg",
+      "text": "\"Working with this team was an absolute pleasure. Their technical expertise and understanding of our business goals made the entire process smooth and stress-free.\"",
+      "name": "Johnathan Wilson"
+    },
+    {
+      "img": "img/testimonials/05.jpg",
+      "text": "\"From start to finish, the project was handled with professionalism and expertise. The final product exceeded our expectations in both design and functionality.\"",
+      "name": "Michael Brown"
+    },
+    {
+      "img": "img/testimonials/06.jpg",
+      "text": "\"The customer support we received was outstanding. They were always available to answer our questions and made sure we were satisfied with every detail.\"",
+      "name": "Emily Davis"
+    }
+  ],
+  "Team": [{
+      "img": "img/team/01.jpg",
+      "name": "Emily Dickson",
+      "job": "Director"
+    },
+    {
+      "img": "img/team/02.jpg",
+      "name": "Mike Richard",
+      "job": "Senior Designer"
+    },
+    {
+      "img": "img/team/03.jpg",
+      "name": "Jane Doe",
+      "job": "Senior Designer"
+    },
+    {
+      "img": "img/team/04.jpg",
+      "name": "Karen Donald",
+      "job": "Project Manager"
+    }
+  ],
+  "Contact": {
+    "address": "Poland, ul, Swieradowska 46, 02-662 ",
+    "phone": "+1 123 456 1234",
+    "email": "info@company.com",
+    "facebook": "fb.com",
+    "twitter": "twitter.com",
+    "youtube": "youtube.com"
+  },
+  "Features": [{
+      "icon": "fa fa-comments-o",
+      "title": "24/7 Support",
+      "text": "Our team is available around the clock to assist you."
+    },
+    {
+      "icon": "fa fa-bullhorn",
+      "title": "Secure",
+      "text": "We prioritize your security and privacy above all."
+    },
+    {
+      "icon": "fa fa-group",
+      "title": "User Friendly",
+      "text": "Designed with the user in mind, easy to navigate."
+    },
+    {
+      "icon": "fa fa-magic",
+      "title": "High Performance",
+      "text": "Our application is optimized for speed and efficiency."
+    }
+  ]
+}
