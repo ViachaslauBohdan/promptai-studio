@@ -155,7 +155,7 @@ export const Contact = (props) => {
           <p>
             &copy; 2024. All Rights Reserved.
             <a href="http://www.tiger-web-solutions.com" rel="nofollow">
-              Tiger Web Solutions.
+              Viachaslau Bohdan IT Services.
             </a>
           </p>
         </div>
