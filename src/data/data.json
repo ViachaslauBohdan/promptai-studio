@@ -18,21 +18,23 @@
       "Comprehensive Services"
     ]
   },
-  "Gallery": [{
-      "title": "Project One",
-      "largeImage": "img/portfolio/01-large.jpg",
-      "smallImage": "img/portfolio/01-small.jpg"
+  "Gallery": [
+    {
+      "title": "Live meter data application",
+      "largeImage": "img/portfolio/project1.png",
+      "smallImage": "img/portfolio/project1.png"
     },
     {
-      "title": "Project Two",
-      "largeImage": "img/portfolio/02-large.jpg",
-      "smallImage": "img/portfolio/02-small.jpg"
+      "title": "Digital twin application",
+      "largeImage": "img/portfolio/maxresdefault.jpg",
+      "smallImage": "img/portfolio/maxresdefault.jpg"
     },
     {
-      "title": "Project Three",
-      "largeImage": "img/portfolio/03-large.jpg",
-      "smallImage": "img/portfolio/03-small.jpg"
+      "title": "Travel plattform",
+      "largeImage": "img/portfolio/project2.png",
+      "smallImage": "img/portfolio/project2.png"
     }
+
   ],
   "Services": [{
       "icon": "fa fa-wordpress",
@@ -40,14 +42,14 @@
       "text": "Our company offers full-spectrum web development services, providing custom, scalable, and secure web solutions tailored to meet your business needs."
     },
     {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Website SEO Optimization",
-      "text": "Our company provides comprehensive SEO (Search Engine Optimization) services designed to enhance your website's visibility, drive organic traffic, and boost your search engine rankings."
-    },
-    {
       "icon": "fa fa-cloud-download",
       "name": "React Vue Angular",
       "text": "Our comprehensive JavaScript framework and library development services encompass React, Vue.js, and Angular, offering tailored solutions to meet your business's unique needs. "
+    },
+    {
+      "icon": "fa fa-cart-arrow-down",
+      "name": "Website SEO Optimization",
+      "text": "Our company provides comprehensive SEO (Search Engine Optimization) services designed to enhance your website's visibility, drive organic traffic, and boost your search engine rankings."
     },
     {
       "icon": "fa fa-language",
@@ -56,7 +58,7 @@
     },
     {
       "icon": "fa fa-plane",
-      "name": "Website Hosting",
+      "name": "Website application hosting",
       "text": "Our company provides reliable and secure website hosting services designed to ensure your online presence is always accessible, fast, and secure. Whether you’re running a small business website, an e-commerce platform."
     },
     {
@@ -90,25 +92,30 @@
     "twitter": "twitter.com",
     "youtube": "youtube.com"
   },
-  "Features": [{
-      "icon": "fa fa-comments-o",
-      "title": "24/7 Support",
-      "text": "Our team is available around the clock to assist you."
-    },
+  "Features": [
     {
-      "icon": "fa fa-bullhorn",
-      "title": "Secure",
-      "text": "We prioritize your security and privacy above all."
+      "icon": "fa fa-magic",
+      "title": "High Performance",
+      "text": "Web platform is optimized for speed and efficiency."
     },
     {
       "icon": "fa fa-group",
       "title": "User Friendly",
       "text": "Designed with the user in mind, easy to navigate."
     },
+ 
     {
-      "icon": "fa fa-magic",
-      "title": "High Performance",
-      "text": "Our application is optimized for speed and efficiency."
+      "icon": "fa fa-bullhorn",
+      "title": "Secure",
+      "text": "We prioritize your security and privacy above all."
+    },
+
+    {
+      "icon": "fa fa-comments-o",
+      "title": "New stack",
+      "text": "Web platforms are build using the newest front-end stack always."
     }
+
+   
   ]
 }
