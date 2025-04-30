@@ -604,3 +604,50 @@ label {
     margin: 50px 0;
   }
 }
+
+/* Social Media Buttons in Navigation */
+.social-links {
+  margin-left: 10px;
+}
+
+.social-btn {
+  width: 40px;
+  height: 40px;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 20px !important;
+  transition: all 0.3s ease;
+  padding: 0 !important;
+  margin: 5px;
+}
+
+.social-btn:hover {
+  transform: scale(1.1);
+}
+
+.social-links .fa-whatsapp {
+  color: #25D366;
+}
+
+.social-links .fa-telegram {
+  color: #0088cc;
+}
+
+/* Make social buttons visible on mobile */
+@media (max-width: 768px) {
+  .social-links {
+    display: inline-block !important;
+  }
+  
+  .navbar-nav > li.social-links {
+    display: inline-block;
+  }
+  
+  .social-btn {
+    width: 35px;
+    height: 35px;
+    font-size: 18px !important;
+  }
+}

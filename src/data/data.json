@@ -1,70 +1,70 @@
 {
   "Header": {
-    "title": "Efficient and optimized user interfaces designed for your needs",
-    "paragraph": " Unlock the potential of your ideas with our premier web development services.We specialize in creating visually stunning and highly functional appealing websites that elevate your brand and deliver an exceptional user experience."
+    "title": "PromptAI Studio",
+    "paragraph": "Smart IT solutions powered by Artificial Intelligence. We transform your business ideas into powerful digital products that drive results."
   },
   "About": {
-    "paragraph": "We are a dedicated team of web development professionals with many Years of experience in delivering high-quality, responsive websites. Our expertise spans across different web development services, allowing us to create dynamic and engaging digital experiences. We are committed to helping businesses thrive online by developing custom solutions that meet their unique needs and objectives.",
+    "paragraph": "We create digital products that work for you. With us, your business speaks the language of technology — fast, smart, and to the point. Wherever you are — we're with you. Online. Always.",
     "Why": [
-      "Expertise and Experience",
-      "Customized Solutions",
-      "Client-Centric Approach",
-      "Cutting-Edge Technology"
+      "AI-Powered Solutions",
+      "Custom Development",
+      "24/7 Support",
+      "Global Reach"
     ],
     "Why2": [
-      "Proven Track Record",
-      "Transparent Pricing",
-      "Agile Development Process",
-      "Comprehensive Services"
+      "Modern Tech Stack",
+      "Fast Delivery",
+      "Proven Results",
+      "Scalable Solutions"
     ]
   },
   "Gallery": [
     {
-      "title": "Live meter data application",
-      "largeImage": "img/portfolio/project1.png",
-      "smallImage": "img/portfolio/project1.png"
+      "title": "AI-Powered Web Platform",
+      "largeImage": "img/portfolio/01-large.jpg",
+      "smallImage": "img/portfolio/01-small.jpg"
     },
     {
-      "title": "Digital twin application",
-      "largeImage": "img/portfolio/maxresdefault.jpg",
-      "smallImage": "img/portfolio/maxresdefault.jpg"
+      "title": "Custom GPT Assistant",
+      "largeImage": "img/portfolio/02-large.jpg",
+      "smallImage": "img/portfolio/02-small.jpg"
     },
     {
-      "title": "Travel plattform",
-      "largeImage": "img/portfolio/project2.png",
-      "smallImage": "img/portfolio/project2.png"
+      "title": "Business Automation Platform",
+      "largeImage": "img/portfolio/03-large.jpg",
+      "smallImage": "img/portfolio/03-small.jpg"
     }
-
   ],
-  "Services": [{
-      "icon": "fa fa-wordpress",
-      "name": "Web development",
-      "text": "Our company offers full-spectrum web development services, providing custom, scalable, and secure web solutions tailored to meet your business needs."
+  "Services": [
+    {
+      "icon": "fa fa-line-chart",
+      "name": "High-Converting Websites",
+      "text": "We design and develop websites and landing pages that convert visitors into customers, using data-driven approaches and modern design principles."
     },
     {
-      "icon": "fa fa-cloud-download",
-      "name": "React Vue Angular",
-      "text": "Our comprehensive JavaScript framework and library development services encompass React, Vue.js, and Angular, offering tailored solutions to meet your business's unique needs. "
+      "icon": "fa fa-cogs",
+      "name": "Web Platforms & CRM",
+      "text": "Custom web platforms and CRM systems that streamline your business operations, built with TypeScript, NestJS, React, and other cutting-edge technologies."
     },
     {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Website SEO Optimization",
-      "text": "Our company provides comprehensive SEO (Search Engine Optimization) services designed to enhance your website's visibility, drive organic traffic, and boost your search engine rankings."
+      "icon": "fa fa-robot",
+      "name": "AI-Powered Chatbots",
+      "text": "Smart chatbots for Telegram, Discord, and Instagram that engage your audience 24/7, handle customer queries, and automate routine tasks."
     },
     {
-      "icon": "fa fa-language",
-      "name": "Landing page development for your business",
-      "text": "Our company specializes in creating high-converting landing pages that are tailored to meet your specific business goals. Whether you’re looking to generate leads, promote a product, or drive sign-ups."
+      "icon": "fa fa-brain",
+      "name": "GPT AI Assistants",
+      "text": "Custom GPT-based AI assistants that integrate seamlessly with your website, providing intelligent responses and enhancing customer experience."
     },
     {
-      "icon": "fa fa-plane",
-      "name": "Website application hosting",
-      "text": "Our company provides reliable and secure website hosting services designed to ensure your online presence is always accessible, fast, and secure. Whether you’re running a small business website, an e-commerce platform."
+      "icon": "fa fa-code",
+      "name": "Modern Development",
+      "text": "Full-stack development using TypeScript, NestJS, React, and modern frameworks to create fast, secure, and scalable applications."
     },
     {
-      "icon": "fa fa-pie-chart",
-      "name": "Website Security",
-      "text": "As a leading provider of comprehensive website security solutions, our company ensures that your online presence is fully protected against cyber threats. Our services are designed to safeguard your website, data, and customers through a multi-layered approach."
+      "icon": "fa fa-users",
+      "name": "Digital Transformation",
+      "text": "End-to-end digital transformation solutions that help your business leverage the power of AI and modern technology."
     }
   ],
   "Testimonials": [{
@@ -78,44 +78,40 @@
       "name": "Piotr Basinski"
     }
   ],
-  "Team": [{
-      "img": "img/team/imageAvatar.jpeg",
-      "name": "Viachaslau Bohdan",
-      "job": "Software Developer"
+  "Team": [
+    {
+      "img": "img/team/01.jpg",
+      "name": "PromptAI Team",
+      "job": "AI & Development Experts"
     }
   ],
   "Contact": {
-    "address": "Poland, ul, Swieradowska 46, 02-662 ",
-    "phone": "+48 537-437-454",
-    "email": "bohdan.uslugiit@gmail.com",
-    "facebook": "fb.com",
-    "twitter": "twitter.com",
-    "youtube": "youtube.com"
+    "address": "📍 Spain | 🌐 Working Worldwide",
+    "phone": "📲 WhatsApp: +34 631 234 567",
+    "email": "✉️ Telegram: @promptai_studio",
+    "additional": "🤖 PromptAI Studio - Web • Chatbots • GPT AI",
+    "hours": "🧠 Smart IT solutions for business"
   },
   "Features": [
     {
-      "icon": "fa fa-magic",
-      "title": "High Performance",
-      "text": "Web platform is optimized for speed and efficiency."
+      "icon": "fa fa-brain",
+      "title": "AI-First Approach",
+      "text": "Leveraging artificial intelligence to create smarter solutions"
     },
     {
-      "icon": "fa fa-group",
-      "title": "User Friendly",
-      "text": "Designed with the user in mind, easy to navigate."
+      "icon": "fa fa-bolt",
+      "title": "Fast Delivery",
+      "text": "Rapid development and deployment of your digital products"
     },
- 
     {
-      "icon": "fa fa-bullhorn",
-      "title": "Secure",
-      "text": "We prioritize your security and privacy above all."
+      "icon": "fa fa-shield",
+      "title": "Reliable & Secure",
+      "text": "Built with security and scalability in mind"
     },
-
     {
-      "icon": "fa fa-comments-o",
-      "title": "New stack",
-      "text": "Web platforms are build using the newest front-end stack always."
+      "icon": "fa fa-globe",
+      "title": "Global Service",
+      "text": "Supporting clients worldwide with 24/7 availability"
     }
-
-   
   ]
 }
