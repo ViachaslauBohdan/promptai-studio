@@ -37,7 +37,7 @@
   ],
   "Services": [
     {
-      "icon": "fa fa-line-chart",
+      "icon": "fa fa-chart-bar",
       "name": "High-Converting Websites",
       "text": "We design and develop websites and landing pages that convert visitors into customers, using data-driven approaches and modern design principles."
     },
@@ -104,7 +104,7 @@
       "text": "Rapid development and deployment of your digital products"
     },
     {
-      "icon": "fa fa-shield",
+      "icon": "fa fa-lock",
       "title": "Reliable & Secure",
       "text": "Built with security and scalability in mind"
     },
