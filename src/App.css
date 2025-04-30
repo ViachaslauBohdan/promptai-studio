@@ -82,3 +82,51 @@
         font-size: 25px;
     }
 }
+
+/* Typewriter effect styles */
+.intro {
+  position: relative;
+}
+
+.intro-text {
+  position: relative;
+  height: 100%;
+}
+
+.intro-text h1 {
+  height: 80px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  color: rgba(255, 255, 255, 0.9);
+  text-shadow: 0 0 1px rgba(255, 255, 255, 0.1);
+}
+
+.intro-text h1 > * {
+  position: relative;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.cursor {
+  display: inline-block;
+  width: 3px;
+  height: 1em;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin-left: 5px;
+  animation: blink 1s infinite;
+  vertical-align: middle;
+}
+
+@keyframes blink {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
