@@ -20,19 +20,30 @@
   },
   "Gallery": [
     {
-      "title": "AI-Powered Web Platform",
-      "largeImage": "img/portfolio/01-large.jpg",
-      "smallImage": "img/portfolio/01-small.jpg"
+      "title": "Tenerifly - Travel Platform",
+      "largeImage": "img/portfolio/tenerifly.png",
+      "smallImage": "img/portfolio/tenerifly.png",
+      "description": "A modern travel platform for Tenerife built with Strapi headless CMS. Features accommodation booking, excursions, and car rentals with a flexible content management system.",
+      "link": "https://tenerifly.io/"
     },
     {
-      "title": "Custom GPT Assistant",
-      "largeImage": "img/portfolio/02-large.jpg",
-      "smallImage": "img/portfolio/02-small.jpg"
+      "title": "Rough Guides - Travel Platform",
+      "largeImage": "img/portfolio/roughguides.png",
+      "smallImage": "img/portfolio/roughguides.png",
+      "description": "A comprehensive travel platform providing expert guides, destination insights, and travel planning tools for adventurous travelers worldwide.",
+      "link": "https://www.roughguides.com"
     },
     {
-      "title": "Business Automation Platform",
-      "largeImage": "img/portfolio/03-large.jpg",
-      "smallImage": "img/portfolio/03-small.jpg"
+      "title": "Web3 AI Agent",
+      "largeImage": "img/portfolio/web3-ai-agent.png",
+      "smallImage": "img/portfolio/web3-ai-agent.png",
+      "description": "Blockchain-based AI agent for automated DeFi operations including token swaps, NFT minting, staking, and pool operations. Built with smart contracts and Web3 technologies."
+    },
+    {
+      "title": "Discord Engagement Bot",
+      "largeImage": "img/portfolio/engagement-bot.png",
+      "smallImage": "img/portfolio/engagement-bot.png",
+      "description": "AI-powered Discord bot for community engagement and management. Features automated responses, role management, activity tracking, and custom commands integration."
     }
   ],
   "Services": [

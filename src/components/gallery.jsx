@@ -8,7 +8,7 @@ export const Gallery = (props) => {
         <div className="section-title">
           <h2>Gallery</h2>
           <p>
-            Explore our extensive portfolio showcasing the range of services we offer. Each project represents our commitment to quality, innovation, and client satisfaction.
+            Explore our portfolio of innovative projects. Each case study represents our commitment to excellence, showcasing how we transform ideas into impactful digital solutions.
           </p>
         </div>
         <div className="row">
@@ -23,6 +23,8 @@ export const Gallery = (props) => {
                     title={d.title}
                     largeImage={d.largeImage}
                     smallImage={d.smallImage}
+                    description={d.description}
+                    link={d.link}
                   />
                 </div>
               ))
