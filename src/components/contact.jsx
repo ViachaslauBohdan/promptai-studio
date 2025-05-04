@@ -1,40 +1,55 @@
 import { useState } from "react";
-import emailjs from "emailjs-com";
+import emailjs from '@emailjs/browser';
 import React from "react";
+
+// Initialize EmailJS with public key
+emailjs.init(process.env.REACT_APP_EMAILJS_PUBLIC_KEY);
 
 const initialState = {
   name: "",
   email: "",
   message: "",
 };
+
 export const Contact = (props) => {
   const [{ name, email, message }, setState] = useState(initialState);
+  const [status, setStatus] = useState("");
+  const form = React.useRef();
 
   const handleChange = (e) => {
     const { name, value } = e.target;
     setState((prevState) => ({ ...prevState, [name]: value }));
   };
-  const clearState = () => setState({ ...initialState });
-  
-  
+
+  const clearState = () => {
+    setState({ ...initialState });
+    setTimeout(() => setStatus(""), 5000);
+  };
+
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(name, email, message);
-    
-     /* replace below with your own Service ID, Template ID and Public Key from your EmailJS account */ 
-    
+    setStatus("Sending...");
+
     emailjs
-      .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", e.target, "YOUR_PUBLIC_KEY")
+      .sendForm(
+        process.env.REACT_APP_EMAILJS_SERVICE_ID,
+        process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
+        form.current,
+        process.env.REACT_APP_EMAILJS_PUBLIC_KEY
+      )
       .then(
         (result) => {
-          console.log(result.text);
+          console.log("Email sent successfully:", result.text);
+          setStatus("Message sent successfully!");
           clearState();
         },
         (error) => {
-          console.log(error.text);
+          console.error("Failed to send email:", error.text);
+          setStatus("Failed to send message. Please try again.");
         }
       );
   };
+
   return (
     <div>
       <div id="contact">
@@ -48,17 +63,18 @@ export const Contact = (props) => {
                   get back to you as soon as possible.
                 </p>
               </div>
-              <form name="sentMessage" validate onSubmit={handleSubmit}>
+              <form ref={form} name="sentMessage" onSubmit={handleSubmit} noValidate>
                 <div className="row">
                   <div className="col-md-6">
                     <div className="form-group">
                       <input
                         type="text"
                         id="name"
-                        name="name"
+                        name="from_name"
                         className="form-control"
                         placeholder="Name"
                         required
+                        value={name}
                         onChange={handleChange}
                       />
                       <p className="help-block text-danger"></p>
@@ -69,10 +85,11 @@ export const Contact = (props) => {
                       <input
                         type="email"
                         id="email"
-                        name="email"
+                        name="from_email"
                         className="form-control"
                         placeholder="Email"
                         required
+                        value={email}
                         onChange={handleChange}
                       />
                       <p className="help-block text-danger"></p>
@@ -87,13 +104,19 @@ export const Contact = (props) => {
                     rows="4"
                     placeholder="Message"
                     required
+                    value={message}
                     onChange={handleChange}
                   ></textarea>
                   <p className="help-block text-danger"></p>
                 </div>
-                <div id="success"></div>
-                <button type="submit" className="btn btn-custom btn-lg">
-                  Send Message
+                <input type="hidden" name="to_name" value="PromptAI Studio" />
+                {status && (
+                  <div className={`alert ${status.includes("success") ? "alert-success" : "alert-danger"}`}>
+                    {status}
+                  </div>
+                )}
+                <button type="submit" className="btn btn-custom btn-lg" disabled={status === "Sending..."}>
+                  {status === "Sending..." ? "Sending..." : "Send Message"}
                 </button>
               </form>
             </div>
@@ -130,8 +153,8 @@ export const Contact = (props) => {
       <div id="footer">
         <div className="container text-center">
           <p>
-            &copy; 2024. All Rights Reserved.
-            <a href="http://www.tiger-web-solutions.com" rel="nofollow">
+            &copy; 2024. All Rights Reserved.{" "}
+            <a href="http://www.promptai.studio" rel="nofollow">
               PromptAI Studio
             </a>
           </p>

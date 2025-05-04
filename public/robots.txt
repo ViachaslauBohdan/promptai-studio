@@ -1,3 +1,16 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Disallow:
+Allow: /
+Allow: /img/
+Allow: /css/
+Allow: /js/
+
+# Sitemap
+Sitemap: https://promptai.studio/sitemap.xml
+
+# Disallow admin and private areas
+Disallow: /admin/
+Disallow: /private/
+Disallow: /api/
+Disallow: /.*?$
+Disallow: /*?$
